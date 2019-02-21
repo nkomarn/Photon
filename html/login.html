@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h1>not sketchy login page</h1>
+    <form id="form">
+        <input id="username" type="text" name="Fucking email"></input>
+        <input id="password" type="password" name="Password"></input>
+        <input id="login" type="button" onclick="dothings()" value="Login kek"></input>
+    </form>
+
+    <input id="login" type="button" onclick="trylaunch()" value="launch kek"></input>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script>
+        function trylaunch() {
+            
+
+           
+            
+            
+        }
+
+        function dothings() {
+            alert("stole ur credentials haha kek u suk fuck u")
+            
+            var credentials = {
+                "agent": {                              
+                    "name": "Minecraft",
+                    "version": 1                        
+                },
+                "username": $("#username").val(),                
+                "password": $("#password").val(),
+                "requestUser": true
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: "https://authserver.mojang.com/authenticate",
+                dataType: "json",
+                contentType: 'application/json',
+                data: JSON.stringify(credentials),
+                success: function(resultData) { alert("Save Complete")
+                    console.log(resultData)
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "atom-launcher",
+  "version": "1.0.0",
+  "description": "A modpack launcher/updater!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mykyta Komarn",
+  "license": "MIT",
+  "dependencies": {
+    "electron-store": "^2.0.0",
+    "jquery": "^3.3.1",
+    "minecraft-launcher": "^3.2.0"
+  },
+  "devDependencies": {
+    "electron": "^3.0.0-beta.13"
+  }
+}
