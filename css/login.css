@@ -1,0 +1,100 @@
+body {
+    overflow: hidden !important;
+}
+.logo {
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 65px;
+    animation-name: logoAnimated;
+    animation-duration: 3s;
+}
+.card {
+    height: 210px;
+    background-color: #111111;
+    padding-top: 5px !important;
+    padding: 28px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 3px 23px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 23px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 23px 0px rgba(0,0,0,0.16);
+    animation-name: cardAnimated;
+    animation-duration: 3s;
+}
+.header {
+    color: #d8d8d8;
+    font-size: 25px;
+}
+.field {
+    background-color: #292929;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px !important;
+    color: #d8d8d8;
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;
+    outline: none;
+}
+.button {
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #5CC78A;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #52AE7A;
+    transform: translateY(1px);
+}
+
+/* Animation stuffs */
+@keyframes logoAnimated {
+    0%  {
+        padding-top: 160px;
+        height: 200px;
+    }
+    25%  {
+        padding-top: 160px;
+        height: 200px;
+    }
+    50%  {
+
+    }
+    75%  {
+       
+    }
+    100% {
+        padding-top: 70px;
+    }
+}
+@keyframes cardAnimated {
+    0%  {
+       opacity: 0;
+    }
+    25%  {
+        opacity: 0;
+    }
+    50%  {
+
+    }
+    75%  {
+       
+    }
+    100% {
+        opacity: 1;
+    }
+}

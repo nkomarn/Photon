@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="window">
+        <div class="titlebar">
+            <div class="window-controls">
+                <img class="img-fluid titlebar-logo" src="../img/logo.png">
+                <a class="minimize" onclick="minimize()">
+                    <svg name="minimizeBtn" style="position: absolute; top: 9px; right: 6px;" width="12" height="12"
+                        viewBox="0 0 12 12">
+                        <rect fill="#ffffff" width="10" height="1" x="1" y="6"></rect>
+                    </svg>
+                </a>
+                <a class="exit" onclick="exit()">
+                    <svg name="exitBtn" style="position: absolute; top: 6px; right: 6px;" width="12" height="12"
+                        viewBox="0 0 12 12">
+                        <polygon fill="#ffffff" fill-rule="evenodd" points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"></polygon>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="sidebar">
+            <i class="material-icons icon">home</i>
+            <i class="material-icons icon">dashboard</i>
+        </div>
+        <div class="content">
+            <!--
+            <div class="hero">
+                <div class="hero-wrapper">
+                    <img class="logo" src="../img/logo.png">
+                    <h1 class="title">Atom</h1>
+                </div>
+            </div>-->
+            <div class="featured">
+                    
+                <h1 class="packs">Featured packs</h1>
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script src="../js/common.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                type: 'GET',
+                url: "http://localhost:5050/packs",
+                dataType: "json",
+                contentType: 'application/json',
+                success: function (data) {
+                    var packs = JSON.parse(JSON.stringify(data))
+
+                    $('.spinner').hide();
+                    packs.forEach(function(pack) {
+                        $('.featured').append(
+                            `<div class="card">
+                                <img class="banner" src="../api/img/` + pack.banner + `">
+                                <h1 class="name">` + pack.name + `</h1>
+                                <p class="description">` + pack.description + `</p>
+                                <div class="button-wrapper">
+                                    <div class="action" onclick="install(` + pack.id + `)">Install</div>
+                                </div>
+                            </div>`
+                        );
+                    });
+                },
+                error: function(x, status, error) {
+                    $.ajax(this)
+                    console.log("f")
+                }
+            });
+        });
+    </script>
+</body>

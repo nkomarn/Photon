@@ -1,0 +1,911 @@
+{
+    "minecraft": "1.7.10",
+    "forge": "1614",
+    "version": "1.0",
+    "base": [{
+        "": {
+
+        }
+    }],
+
+    "mods": [
+        {
+            "name": "Actually Additions",
+            "author": "Ellpeck",
+            "description": "Adds random useful items.",
+            "version": "r21",
+            "file": "ActuallyAdditions-r21.jar",
+            "icon": "ActuallyAdditions.png",
+            "client": 0
+        },
+        {
+            "name": "Adventure Backpack",
+            "author": "JavierDarkona",
+            "description": "Adds modular backpacks that you can wear.",
+            "version": "0.8c",
+            "file": "AdventureBackpack-0.8c.jar",
+            "icon": "AdventureBackpack.png",
+            "client": 0
+        },
+        {
+            "name": "AE2 Stuff",
+            "author": "bdew",
+            "description": "This mods adds various bits and machines to Applied Energistics 2.",
+            "version": "0.5.1.61",
+            "file": "AE2Stuff-0.5.1.61.jar",
+            "icon": "AE2Stuff.png",
+            "client": 0
+        },
+        {
+            "name": "The Aether II",
+            "author": "GildedGames",
+            "description": "The Aether II is the sequel to the highly popular dimension mod \"The Aether\", set in a hostile paradise miles up in the clouds, the Aether is an entirely different world from what regular players are used to, filled with fantastic creatures and mysterious structures, the Aether is a world brimming with life and history.",
+            "version": "1.6",
+            "file": "AetherII-1.6.jar",
+            "icon": "AetherII.png",
+            "client": 0
+        },
+        {
+            "name": "Another One Bites the Dust",
+            "author": "ganymedes01",
+            "description": "Gives the player the ability to grind every ore in the game.",
+            "version": "2.9.2",
+            "file": "AnotherOneBitestheDust-2.9.2.jar",
+            "icon": "AnotherOneBitestheDust.png",
+            "client": 0
+        },
+        {
+            "name" : "Applied Energistics 2",
+            "author": "AlgorithmX2",
+            "description": "Adds large format item storage in small area.",
+            "version": "rv2-stable-10",
+            "file": "AppliedEnergistics2-rv2-stable-10.jar",
+            "icon": "AppliedEnergistics2.png",
+            "client": 0
+        },
+        {
+            "name": "Aroma1997Core",
+            "author": "Aroma1997",
+            "description": "Core mod for all of Aroma1997's other mods.",
+            "version": "1.0.2.16",
+            "file": "Aroma1997Core-1.0.2-16.jar",
+            "icon": "",
+            "client": 0
+        },
+        {
+            "name": "Aroma1997's Dimensional World",
+            "author": "Aroma1997",
+            "description": "This Mod adds a complete new Dimension, specially for Mining, but you can do whatever you want to do in it.",
+            "version": "1.1.0.1",
+            "file": "Aroma1997sDimensionalWorld-1.1.0.1.jar",
+            "icon": "Aroma1997DimensionalWorld.png",
+            "client": 0
+        },
+        {
+            "name": "Aroma Backup",
+            "author": "Aroma1997",
+            "description": "Regularly backups your SSP or SMP world.",
+            "version": "0.1.0.0",
+            "file": "AromaBackup-0.1.0.0.jar",
+            "icon": "",
+            "client": 0
+        },
+        {
+            "name": "Atomic Science",
+            "author": "Dark Cow",
+            "description": "Atomic science is a tech mod focused on nuclear physics.",
+            "version": "3.0.5b8",
+            "file": "AtomicScience-3.0.5b8.jar",
+            "icon": "AtomicScience.png",
+            "client": 0
+        },
+        {
+            "name": "AutoPackager",
+            "author": "smbarbour",
+            "description": "Automated crafting of 2x2 or 3x3 recipes.",
+            "version": "1.5.9a",
+            "file": "AutoPackager-1.5.9a.jar",
+            "icon": "AutoPackager.png",
+            "client": 0
+        },
+        {
+            "name": "Avaritia",
+            "author": "SpitefulFox",
+            "description": "A parody mod to end all mods.",
+            "version": "1.13",
+            "file": "Avaritia-1.13.jar",
+            "icon": "Avaritia.png",
+            "client": 0
+        },
+        {
+            "name": "Avaritiaddons",
+            "author": "WanionCane",
+            "description": "A mod that tries to expand the meaning of infinity!",
+            "version": "1.4b",
+            "file": "Avaritiaddons-1.4b.jar",
+            "icon": "Avaritiaddons.png",
+            "client": 0
+        },
+        {
+            "name": "Barkifier",
+            "author": "Tschipp",
+            "description": "Adds a tool to make six-sided bark logs.",
+            "version": "0.5",
+            "file": "Barkifier-0.5.jar",
+            "icon": "Barkifier.png",
+            "client": 0
+        },
+        {
+            "name": "BDLib",
+            "author": "bdew",
+            "description": "A library of generic code for all of bdew's other mods.",
+            "version": "1.9.4.109",
+            "file": "BDLib-1.9.4.109.jar",
+            "icon": "",
+            "client": 0
+        },
+        {
+            "name": "Better Achievements",
+            "author": "Way2muchnoise",
+            "description": "Improves the look of the Achievements screen and adds tabs for other mods.",
+            "version": "0.1.0",
+            "file": "BetterAcievements-0.1.0.jar",
+            "icon": "BetterAchievements.png",
+            "client": 1
+        },
+        {
+            "name": "Better Builders Wands",
+            "author": "Portablejim",
+            "description": "An attempt to make nice-to-user builder's wands.",
+            "version": "0.8.1",
+            "file": "BetterBuildersWands-0.8.1.jar",
+            "icon": "BetterBuildersWands.png",
+            "client": 0
+        },
+        {
+            "name": "Better FPS",
+            "author": "GuichaGuri",
+            "description": "BetterFps is a mod that adds a few performance improvements, trying to be compatible with other mods.",
+            "version": "1.0.1",
+            "file": "BetterFPS-1.0.1.jar",
+            "icon": "BetterFPS.png",
+            "client": 1
+        },
+        {
+            "name": "Better Loading Screen",
+            "author": "AlexIIL",
+            "description": "A simple mod that shows a progress bar while minecraft is loading to show how far through the loading steps it is, and what mod it is currently on.",
+            "version": "1.3.10",
+            "file": "BetterLoadingScreen-1.3.10.jar",
+            "icon": "BetterLoadingScreen.png",
+            "client": 1
+        },
+        {
+            "name": "Better Questing",
+            "author": "Funwayguy",
+            "description": "A new and improved questing mod for Minecraft pack creators.",
+            "version": "2.0.233",
+            "file": "BetterQuesting-2.0.233.jar",
+            "icon": "BetterQuesting.png",
+            "client": 0
+        },
+        {
+            "name": "Big Reactors",
+            "author": "ErogenousBeef",
+            "description": "A mod that adds large multiblock super-customizable reactors for power generation.",
+            "version": "0.4.3A",
+            "file": "BigReactors-0.4.3A.jar",
+            "icon": "BigReactors.png",
+            "client": 0
+        },
+        {
+            "name": "Biomes O' Plenty",
+            "author": "GlitchFiend",
+            "description": "The #1 biome mod for Minecraft, adding a ton of unique biomes to enhance your experience!",
+            "version": "2.1.0.1889",
+            "file": "BiomesOPlenty-2.1.0.1889.jar",
+            "icon": "BiomesOPlenty.png",
+            "client": 0
+        },
+        {
+            "name": "Blood Magic",
+            "author": "WayofTime",
+            "description": "An arcane art for ultimate power.",
+            "version": "2.3.3-17",
+            "file": "BloodMagic-2.3.3-17.jar",
+            "icon": "BloodMagic.png",
+            "client": 0
+        },
+        {
+            "name": "Botania",
+            "author": "Vazkii",
+            "description": "An innovative natural magic themed tech mod.",
+            "version": "r1.8-249",
+            "file": "Botania-r1.8-249.jar",
+            "icon": "Botania.png",
+            "client": 0
+        },
+        {
+            "name": "Brandons Core",
+            "author": "brandon3055",
+            "description": "This is the core mod that will be used by most of my mods from now on.",
+            "version": "1.0.0.12",
+            "file": "BrandonsCore-1.0.0.12.jar",
+            "icon": "BrandonsCore.png",
+            "client": 0
+        },
+        {
+            "name": "Buildcraft",
+            "author": "CovertJaguar",
+            "description": "Extending MineCraft with pipes, auto-crafting, quarries, engines and much more!",
+            "version": "7.1.23",
+            "file": "Buildcraft-7.1.23.jar",
+            "icon": "Buildcraft.png",
+            "client": 0
+        },
+        {
+            "name": "Buildcraft Compat",
+            "author": "buildcraftchildsplay",
+            "description": "Buildcraft compat is a Buildcraft addon designed to add cross-mod compatibility with other mods.",
+            "version": "7.1.7",
+            "file": "BuildcraftCompat-7.1.7.jar",
+            "icon": "BuildcraftCompat.png",
+            "client": 0
+        },
+        {
+            "name": "Carpenter's Blocks",
+            "author": "Syntaxial",
+            "description": "Customize your minecraft world.",
+            "version": "3.3.8.1",
+            "file": "CarpentersBlocks-3.3.8.1.jar",
+            "icon": "CarpentersBlocks.png",
+            "client": 0
+        },
+        {
+            "name": "Chance Cubes",
+            "author": "Turkey",
+            "description": "A game of chance and skill.",
+            "version": "2.4.1.182",
+            "file": "ChanceCubes-2.4.1.182.jar",
+            "icon": "ChanceCubes.png",
+            "client": 0
+        },
+        {
+            "name": "Chicken Chunks",
+            "author": "chicken_bones",
+            "description": "Chunkloading chicken_bones style.",
+            "version": "1.3.4.19",
+            "file": "ChickenChunks-1.3.4.19.jar",
+            "icon": "ChickenChunks.png",
+            "client": 0
+        },
+        {
+            "name": "Chisel",
+            "author": "tterrag1098",
+            "description": "A builder's best friend.",
+            "version": "2.9.5.11",
+            "file": "Chisel-2.9.5.11.jar",
+            "icon": "Chisel.png",
+            "client": 0
+        },
+        {
+            "name": "Chunk Pregenerator",
+            "author": "Speiger",
+            "description": "Pre-generate your worlds with efficiency.",
+            "version": "2.1",
+            "file": "ChunkPregenerator-2.1.jar",
+            "icon": "ChunkPrefenerator.jar",
+            "client": 2
+        },
+        {
+            "name": "Code Chicken Core",
+            "author": "chicken_bones",
+            "description": "Base common code for all of chicken_bones mods.",
+            "version": "1.0.7.47",
+            "file": "CodeChickenCore-1.0.7.47.jar",
+            "icon": "CodeChickenCore.png",
+            "client": 0
+        },
+        {
+            "name": "CoFH Core",
+            "author": "TeamCoFH",
+            "description": "Contains Core Functionality for all Team CoFH mods. Also does some really cool stuff on its own!",
+            "version": "3.1.4-329",
+            "file": "CoFHCore-3.1.4-329",
+            "icon": "CoFHCore.png",
+            "client": 0
+        },
+        {
+            "name": "CoFH Lib",
+            "author": "TeamCoFH",
+            "description": "Library/API required by all CoFH mods. It's also meant as a resource for other modders!",
+            "version": "1.2.1-185",
+            "file": "CoFHLib-1.21-185",
+            "icon": "",
+            "client": 0
+        },
+        {
+            "name": "ComputerCraft",
+            "author": "dan200",
+            "description": "Computers, Programming, and Robotics in MineCraft!",
+            "version": "1.75",
+            "file": "ComputerCraft-1.75.jar",
+            "icon": "ComputerCraft.png",
+            "client": 0
+        },
+        {
+            "name": "Console Filter",
+            "author": "Chaosyr",
+            "description": "Keep your console looking fresh.",
+            "version": "1.1.1",
+            "file": "ConsoleFilter-1.1.1.jar",
+            "icon": "ConsoleFilter.png",
+            "client": 0
+        },
+        {
+            "name": "Controlling",
+            "author": "jaredIII08",
+            "description": "Adds a search bar to the Key-Bindings Menu.",
+            "version": "1.0.0",
+            "file": "Controlling-1.0.0.jar",
+            "icon": "Controlling.png",
+            "client": 1
+        },
+        {
+            "name": "Cosmetic Armor Reworked",
+            "author": "ZLainSama",
+            "description": "This mod allows you to wear two sets of armor, one for display, one for function.",
+            "version": "6b",
+            "file": "CosmeticArmorReworked-6b.jar",
+            "icon": "CosmeticArmorReworked.png",
+            "client": 0
+        },
+        {
+            "name": "Crafting Tweaks",
+            "author": "BlayTheNinth",
+            "description": "Allows you to rotate, balance or clear the crafting matrix by the press of a button, in any (supported) crafting window.",
+            "version": "1.0.88",
+            "file": "CraftingTweaks-1.0.88.jar",
+            "icon": "CraftingTweaks.png",
+            "client": 0
+        },
+        {
+            "name": "Craft Presence",
+            "author": "CDAGaming",
+            "description": "Completely Customize the way others see you play in Discord!",
+            "version": "1.4.9.9",
+            "file": "CraftPresence-1.4.9.9.jar",
+            "icon": "CraftPresence.png",
+            "client": 1
+        },
+        {
+            "name": "Custom Main Menu",
+            "author": "Lumien",
+            "description": "Allows you to modify the main menu using a simple JSON file.",
+            "version": "1.9.2",
+            "file": "CustomMainMenu-1.9.2.jar",
+            "icon": "CustomMainMenu.png",
+            "client": 1
+        },
+        {
+            "name": "Dense Ores",
+            "author": "RWTema",
+            "description": "Adds dense variants of ores, with support for numerous mods.",
+            "version": "1.6.2",
+            "file": "DenseOres-1.6.2.jar",
+            "icon": "DenseOres.png",
+            "client": 0
+        },
+        {
+            "name": "Ding",
+            "author": "Draylar1",
+            "description": "Plays a ding sound when the game is finished loading.",
+            "version": "2",
+            "file": "Ding-2.jar",
+            "icon": "Ding.png",
+            "client": 1
+        },
+        {
+            "name": "Draconic Evolution",
+            "author": "brandon3055",
+            "description": "Draconic Evolution is a mod that adds extremely expensive high tier items to the game.",
+            "version": "1.0.2h",
+            "file": "DraconicEvolution-1.0.2h.jar",
+            "icon": "DraconicEvolution.png",
+            "client": 0
+        },
+        {
+            "name": "Emerald Obsidian Mod",
+            "author": "royalsmods",
+            "description": "An emerald and obsidian tools/armor mod.",
+            "version": "1.3.1",
+            "file": "EmeraldObsidianMod-1.3.1.jar",
+            "icon": "EmeraldObsidianMod.png",
+            "client": 0
+        },
+        {
+            "name": "EnderCore",
+            "author": "tterrag1098",
+            "description": "Library mod for Ender* projects and others.",
+            "version": "0.2.0.39_beta",
+            "file": "EnderCore0.2.0.39_beta.jar",
+            "icon": "EnderCore.png",
+            "client": 0
+        },
+        {
+            "name": "Ender IO",
+            "author": "CrazyPants",
+            "description": "Tech mod.",
+            "version": "2.3.0.429_beta",
+            "file": "EnderIO-2.3.0.429_beta.jar",
+            "icon": "EnderIO.png",
+            "client": 0
+        },
+        {
+            "name": "Ender IO Addons",
+            "author": "Henry_Loenwind",
+            "description": "EnderIOAddons is a mod that adds a couple of machines to Ender IO.",
+            "version": "0.10.13.56_beta",
+            "file": "EnderIOAddons-0.10.13.56_beta.jar",
+            "icon": "EnderIOAddons.png",
+            "client": 0
+        },
+        {
+            "name": "Ender Storage",
+            "author": "chicken_bones",
+            "description": "Color coded ender chests!",
+            "version": "1.4.7.37",
+            "file": "EnderStorage-1.4.7.37.jar",
+            "icon": "EnderStorage.png",
+            "client": 0
+        },
+        {
+            "name": "Ender Tech",
+            "author": "CarrotCodes",
+            "description": "EnderTech is intended to be a tech and Ender themed mod, starting at around Thermal Expansion's end-game.",
+            "version": "0.3.2.405",
+            "file": "EnderTech-0.3.2.405.jar",
+            "icon": "EnderTech.png",
+            "client": 0
+        },
+        {
+            "name": "Extra Cells 2",
+            "author": "Destroyer7128",
+            "description": "Allows for the ability to store liquids and gases on an ME system.",            "version": "2.3.14b200",
+            "file": "ExtraCells2-2.3.14b200.jar",
+            "icon": "ExtraCells2.png",
+            "client": 0
+        },
+        {
+            "name": "Extra Planets",
+            "author": "MJRLegends",
+            "description": "Addon for Galtaciticraft to add extra planets.",
+            "version": "2.0.7",
+            "file": "ExtraPlanets-2.0.7.jar",
+            "icon": "ExtraPlanets.png",
+            "client": 0
+        },
+        {
+            "name": "Extra TIC",
+            "author": "JeanGlassmaker",
+            "description": "ExtraTiC Adds additional tools and weapons for Tinkers' Construct including more mod support.",
+            "version": "1.4.6",
+            "file": "ExtraTIC-1.4.6.jar",
+            "icon": "ExtraTIC.png",
+            "client": 0
+        },
+        {
+            "name": "Extra Utilities",
+            "author": "RWTema",
+            "description": "Just a bunch of useful things.",
+            "version": "1.2.12",
+            "file": "ExtraUtilities-1.2.12.jar",
+            "icon": "ExtraUtilities.png",
+            "client": 0
+        },
+        {
+            "name": "FastCraft",
+            "author": "Player",
+            "description": "FastCraft is a sophisticated mod which improves the client and server performance significantly without any game play changes. FastCraft is useful for anything, even fast PCs and servers benefit.",
+            "version": "1.25",
+            "file": "FastCraft-1.25.jar",
+            "icon": "FastCraft.png",
+            "client": 0
+        },
+        {
+            "name": "Fast Leaf Decay",
+            "author": "Olafski",
+            "description": "Makes leaves decay faster when a tree is cut down. ",
+            "version": "1.4",
+            "file": "FastLeafDecay-1.4.jar",
+            "icon": "FastLeafDecay.png",
+            "client": 0
+        },
+        {
+            "name": "Fossils Archeology",
+            "author": "FossilsRevival",
+            "description": "Adding dinosaurs and archeology to Minecraft.",
+            "version": "7.3.2",
+            "file": "FossilsArcheology-7.3.2.jar",
+            "icon": "FossilsArcheology.png",
+            "client": 0
+        },
+        {
+            "name": "Fullscreen Windowed",
+            "author": "hancin",
+            "description": "Allows minecraft to run in fullscreen windowed mode.",
+            "version": "1.3.0b",
+            "file": "FullscreenWindowed-1.3.0b.jar",
+            "icon": "",
+            "client": 1
+        },
+        {
+            "name": "Galacticraft Core",
+            "author": "micdoodle8",
+            "description": "Base Galacticraft mod",
+            "version": "3.0.12.504",
+            "file": "GalacticraftCore-3.0.12.504.jar",
+            "icon": "GalacticraftCore.png",
+            "client": 0
+        },
+        {
+            "name": "Galacticraft Planets",
+            "author": "micdoodle8",
+            "description": "Planetary addon for Galacticraft",
+            "version": "3.0.12.504",
+            "file": "GalacticraftPlanets-3.0.12.504.jar",
+            "icon": "GalacticraftPlanets.png",
+            "client": 0
+        },
+        {
+            "name": "Gilded Games Util",
+            "author": "GildedGames",
+            "description": "Library mod for The Aether II",
+            "version": "1.9",
+            "file": "GildedGamesUtils-1.9.jar",
+            "icon": "GildedGamesUtils.png",
+            "client": 0
+        },
+        {
+            "name": "Hats",
+            "author": "iChun",
+            "description": "Adds hats to player models that can be found in the world by killing animals.",
+            "version": "4.0.1",
+            "file": "Hats-4.0.1.jar",
+            "icon": "Hats.png",
+            "client": 0
+        },
+        {
+            "name": "HelpFixer",
+            "author": "matthewprenger",
+            "description": "Fixes the /help command",
+            "version": "1.0.7",
+            "file": "HelpFixer-1.0.7.jar",
+            "icon": "HelpFixer.png",
+            "client": 0
+        },
+        {
+            "name": "iChunUtil",
+            "author": "iChun",
+            "description": "Library mod for all of iChun's mods",
+            "version": "4.2.3",
+            "file": "iChunUtil-4.2.3.jar",
+            "icon": "iChunUtil.png",
+            "client": 0
+        },
+        {
+            "name": "Immersive Engineering",
+            "author": "BluSunrize",
+            "description": "Immersive Engineering is a tech mod with a certain charm.",
+            "version": "0.7.7",
+            "file": "ImmersiveEngineering-0.7.7.jar",
+            "icon": "ImmersiveEngineering.png",
+            "client": 0
+        },
+        {
+            "name": "Immersive Integration",
+            "author": "UnwrittenFun",
+            "description": "This mod is an addon to Immersive Engineering. The aim is to add blocks and items that fit in with the IE style but would not make sense to be in IE itself. This will be items that integrate with other mods, as well as IE and vanilla additions.",
+            "version": "0.6.8",
+            "file": "ImmersiveIntegration-0.6.8.jar",
+            "icon": "ImmersiveIntegration.png",
+            "client": 0
+        },
+        {
+            "name": "IndustrialCraft 2",
+            "author": "Player",
+            "description": "A versatile, feature rich tech mod for Minecraft",
+            "version": "2.2.827",
+            "file": "IndustrialCraft2-2.2.827.jar",
+            "icon": "IndustrialCraft2.png",
+            "client": 0
+        },
+        {
+            "name": "InfiniBows",
+            "author": "Myrathi",
+            "description": "Removes the requirement of having a singular arrow in the inventory to use a bow with the infinity enchantment.",
+            "version": "1.3.0.20",
+            "file": "InfiniBows-1.3.0.20.jar",
+            "icon": "InfiniBows.png",
+            "client": 0
+        },
+        {
+            "name": "Intelligent Energistics",
+            "author": "thatsIch",
+            "description": "Intelligent Energistings is an addon for Applied Energistics 2 made by AlgorithmX2, that adds specific utilites to Applied Energistics 2",
+            "version": "2.2.1.610",
+            "file": "IntelligentEnergistics-2.2.1.610.jar",
+            "icon": "IntelligentEnergistics.png",
+            "client": 0
+        },
+        {
+            "name": "Inventory Pets",
+            "author": "Purplicous_Cow",
+            "description": "Inventory Pets are living animated creatures that exist in your inventory and give you amazing special effects, drops, buffs, utilities, defenses, and weapons in exchange for care and feeding.",
+            "version": "1.5.2",
+            "file": "InventoryPets-1.5.2.jar",
+            "icon": "InventoryPets.png",
+            "client": 0
+        },
+        {
+            "name": "Inventory Tweaks",
+            "author": "Kobata",
+            "description": "This client mod allows you to easily manage your inventory, in both single player and multiplayer. It works out of the box, and will make you gain a massive amount of time!",
+            "version": "1.59-dev-152",
+            "file": "InventoryTweaks-1.59-dev-152.jar",
+            "icon": "InventoryTweaks.png",
+            "client": 0
+        },
+        {
+            "name": "Iron Backpacks",
+            "author": "gr8pefish",
+            "description": "Iron Backpacks deals with portable storage and item manipulation through tiered backpacks and a system of modular upgrades.",
+            "version": "1.2.20",
+            "file": "IronBackpacks-1.2.20.jar",
+            "icon": "IronBackpacks.png",
+            "client": 0
+        },
+        {
+            "name": "Iron Chests",
+            "author": "progwml6",
+            "description": "Iron Chests mod has chests for the various metals in vanilla minecraft with varying sizes!",
+            "version": "6.0.62.742",
+            "file": "IronChests-6.0.62.742.jar",
+            "icon": "IronChests.png",
+            "client": 0
+        },
+        {
+            "name": "Journey Map",
+            "author": "techbrew",
+            "description": "JourneyMap is a client+server mod for Forge which maps your Minecraft world in real-time as you explore. You can view the map in a web browser or in-game as a Minimap or full-screen.",
+            "version": "5.1.4p2-unlimited",
+            "file": "JourneyMap-5.1.4p2-unlimited.jar",
+            "icon": "JourneyMap.png",
+            "client": 1
+        },
+        {
+            "name": "Just a few fish",
+            "author": "Tmtravlr",
+            "description": "This is a little mod I made that adds, well, just a few fish!",
+            "version": "1.4.2",
+            "file": "JustAFewFish-1.4.2.jar",
+            "icon": "JustAFewFish.png",
+            "client": 0
+        },
+        {
+            "name": "Ladders",
+            "author": "Luppii",
+            "description": "Ever thought the regular ladders were a bit plain and not so useful? This mini-mod aim to make ladders a bit more useful and a lot better looking.",
+            "version": "0.5.0",
+            "file": "Ladders-0.5.0.jar",
+            "icon": "Ladders.png",
+            "client": 0
+        },
+        {
+            "name": "LLibrary",
+            "author": "iLexiconn",
+            "description": "LLibrary is a small mod that contains shared code for other mods.",
+            "version": "1.5.1",
+            "file": "LLibrary-1.5.1.jar",
+            "icon": "LLibrary.png",
+            "client": 0
+        },
+        {
+            "name": "Login Shield",
+            "author": "Glasspelican",
+            "description": "Simple server side mod that protects players from damage during login.",
+            "version": "2-gf6e21a7",
+            "file": "LoginShield-2-gf6e21a7.jar",
+            "icon": "LoginShield.png",
+            "client": 2
+        },
+        {
+            "name": "Mantle",
+            "author": "mDiyo",
+            "description": "Core mod for Tinker's Construct",
+            "version": "0.3.2b",
+            "file": "Mantle-0.3.2b.jar",
+            "icon": "Mantle.jar",
+            "client": 0
+        },
+        {
+            "name": "McJTY Lib",
+            "author": "McJTY",
+            "description": "This is a companion mod required by all mods from McJty: RFTools, RFTools Dimensions, Deep Resonance and also by RF Lux by romelo333",
+            "version": "1.8.1",
+            "file": "McJTY-1.8.1.jar",
+            "icon": "McJTY.png",
+            "client": 0
+        },
+        {
+            "name": "Mekanism",
+            "author": "aidancbrady",
+            "description": "Mekanism is an independent tech mod that brings low, mid, and high tier machinery to Minecraft.",
+            "version": "9.1.1.1031",
+            "file": "Mekanism-9.1.1.1031.jar",
+            "icon": "Mekanism",
+            "client": 0
+        },
+        {
+            "name": "Mekanism Generators",
+            "author": "aidancbrady",
+            "description": "Add generators to Mekanism",
+            "version": "9.1.1.1031",
+            "file": "MekanismGenerators-9.1.1.1031.jar",
+            "icon": "MekanismGenerators.png",
+            "client": 0
+        },
+        {
+            "name": "Mekanism Tools",
+            "author": "aidancbrady",
+            "description": "Adds tools made form Mekanism materials",
+            "version": "9.1.1.1031",
+            "file": "MekanismTools-9.1.1.1031.jar",
+            "icon": "MekanismTools.png",
+            "client": 0
+        },
+        {
+            "name": "Micdoodle Core",
+            "author": "micdoodle8",
+            "description": "Core Library Mod for all of micdoodle8's mods",
+            "version": "3.0.12.504",
+            "file": "MicdoodleCore-3.0.12.504.jar",
+            "icon": "MicdoodleCore.png",
+            "client": 0
+        },
+        {
+            "name": "Mine Factory Reloaded",
+            "author": "skyboy026",
+            "description": "Mine Factory Reloaded aims to automate a number of tasks that previously would be difficult, boring, or work-intensive. It also provides some additional support blocks and machines.",
+            "version": "2.8.1-174",
+            "file": "MineFactoryReloaded-2.8.1-174.jar",
+            "icon": "MineFactoryReloaded.png",
+            "client": 0
+        },
+        {
+            "name": "More Shearables",
+            "author": "Lellson",
+            "description": "More Shearables is a small mod, which allows you to shear chicken, cows and pigs.",
+            "version": "1.0",
+            "file": "MoreShearables-1.0.jar",
+            "icon": "MoreShearables.png",
+            "client": 0
+        },
+        {
+            "name": "Morpheus",
+            "author": "Quetzi",
+            "description": "Sleep vote system",
+            "version": "1.6.21",
+            "file": "Morpheus-1.6.21.jar",
+            "icon": "Morpheus.png",
+            "client": 0
+        },
+        {
+            "name": "Mouse Tweaks",
+            "author": "YaLTeR",
+            "description": "Mouse Tweaks replaces the standard RMB dragging mechanic, adds two new LMB dragging mechanics and an ability to quickly move items with the scroll wheel.",
+            "version": "2.4.4",
+            "file": "MouseTweaks-1.4.4.jar",
+            "icon": "MouseTweaks.png",
+            "client": 0
+        },
+        {
+            "name": "Mr. Crayfish's Furniture Mod",
+            "author": "Mr. Crayfish",
+            "description": "This mod adds in what Minecraft has been missing for years, furniture!",
+            "version": "3.4.7",
+            "file": "MrCrayfishFurnitureMod-3.4.7.jar",
+            "icon": "MrCrayfishFurnitureMod.png",
+            "client": 0
+        },
+        {
+            "name": "Natura",
+            "author": "mDiyo",
+            "description": "Natura is a mod that aims to spice up the world with interesting worldgen",
+            "version": "2.2.0.1",
+            "file": "Natura-2.2.0.1",
+            "icon": "Natura.png",
+            "client": 0
+        },
+        {
+            "name": "NEI Integration",
+            "author": "Tonius",
+            "description": "NEI Integration is two things-- a playground to try out new types of Not Enough Items recipe handlers, and a place to put NEI handlers if I somehow can't get them into the mods they were made for.",
+            "version": "1.1.2",
+            "file": "NEIIntegration-1.1.2.jar",
+            "icon": "NEIIntegration.png",
+            "client": 0
+        },
+        {
+            "name": "Nether Ores",
+            "author": "skyboy026",
+            "description": "Adds ores to the nether. But watch out pigman don't like when you take their ores",
+            "version": "2.3.1-22",
+            "file": "NetherOres-2.3.1-22.jar",
+            "icon": "NetherOres.png",
+            "client": 0
+        },
+        {
+            "name": "Nether Portal Fix",
+            "author": "BlayTheNinth",
+            "description": "Ever played on a multiplayer server, built near other players and when returning from the Nether, surprisingly found yourself in another player's base?",
+            "version": "1.1.0",
+            "file": "NetherPortalFix-1.1.0.jar",
+            "icon": "NetherPortalFix.png",
+            "client": 0
+        },
+        {
+            "name": "Nodal Mechanics",
+            "author": "Shukaro",
+            "description": "Adds a research item with 3 associated recipes which allow players to manufacture Thaumcraft nodes.",
+            "version": "1.0.7",
+            "file": "NodalMechanics-1.0.7.jar",
+            "icon": "NodalMechanics.png",
+            "client": 0
+        },
+        {
+            "name": "No Fog",
+            "author": "craftalotreloaded",
+            "description": "A simple mod that removes all fog",
+            "version": "b1-1.0",
+            "file": "NoFog-b1-1.0.jar",
+            "icon": "NoFog.png",
+            "client": 1
+        },
+        {
+            "name": "Not Enough Items",
+            "author": "chicken_bones",
+            "description": "Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.",
+            "version": "1.0.5.120",
+            "file": "NotEnoughItems-1.0.5.120.jar",
+            "icon": "NotEnoughItems.png",
+            "client": 0
+        },
+        {
+            "name": "Not Enough Resources",
+            "author": "Way2muchnoise",
+            "description": "Adds NEI integration for world resources like ores and mob drops.",
+            "version": "0.1.0-122",
+            "file": "NotEnoughResources-0.1.0-122.jar",
+            "icon": "NotEnoughResources.png",
+            "client": 0
+        },
+        {
+            "name": "Not Enough Thaumcraft Tabs",
+            "author": "fewizz",
+            "description": "Improves the Thaumcraft thaumonomicon by adding tabs for the different sections",
+            "version": "",
+            "file": "",
+            "icon": "",
+            "client": 0
+        }
+    ],
+
+    "extra": [{
+
+    }],
+
+    "shaderpacks": [{
+
+    }]
+}
