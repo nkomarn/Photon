@@ -1,5 +1,4 @@
 const {app, BrowserWindow} = require('electron');
-const Store = require('electron-store');
 const fs = require('fs')
 const launcher = require('launcher')
 
@@ -9,23 +8,12 @@ const authenticator = require('minecraft-launcher/lib/authenticator/yggdrasil')
 const core = new MCLauncher()
 
 let mainWindow
-const store = new Store();
 let defaultSettings = {
   "directory": app.getPath('userData'),
   "accounts": []
 };
 
 function createWindow () {
-  // Create settings file in user data
-  if (!fs.existsSync(app.getPath('userData') + "/settings.json")) {
-    fs.writeFile(app.getPath('userData') + "/settings.json", JSON.stringify(defaultSettings), function(e) {
-      if (e) {
-        alert("Error creating default configuration. Atom won't be able to run properly because of this.")
-        console.log(e);
-      }
-    }); 
-  }
-
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
@@ -47,6 +35,18 @@ function createWindow () {
 
 app.on('ready', function() {
   //createWindow()
+
+  let d = app.getPath('userData');
+
+  // Create settings file in user data
+  if (!fs.existsSync(jkapp.getPath('userData') + "/settings.json")) {
+    fs.writeFile(app.getPath('userData') + "/settings.json", JSON.stringify(defaultSettings), function(e) {
+      if (e) {
+        alert("Error creating default configuration. Atom won't be able to run properly because of this.")
+        console.log(e);
+      }
+    }); 
+  }
 
   let c;
   
@@ -79,7 +79,7 @@ app.on('ready', function() {
   }
 
 
-  launcher(options)
+  //launcher(options)
 });
 
 app.on('window-all-closed', function () {
