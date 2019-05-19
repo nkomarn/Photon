@@ -1,5 +1,5 @@
 {
-  "name": "atom-launcher",
+  "name": "photon",
   "version": "1.0.0",
   "description": "A modpack launcher/updater!",
   "main": "main.js",
@@ -9,19 +9,15 @@
   "author": "Mykyta Komarn",
   "license": "MIT",
   "dependencies": {
+    "cryptr": "^4.0.2",
     "download-file": "^0.1.5",
-    "electron-store": "^3.2.0",
-    "jquery": "^3.3.1",
-    "material-design-icons": "^3.0.1",
-    "minecraft-launcher": "^3.2.0",
     "node-fetch": "^2.3.0",
     "promise": "^8.0.2",
     "shelljs": "^0.8.3",
-    "spinkit": "^1.2.5",
     "uuid-by-string": "^2.1.0",
     "zipfile": "^0.5.12"
   },
   "devDependencies": {
-    "electron": "^3.0.0-beta.13"
+    "electron": "^5.0.1"
   }
 }

@@ -3,6 +3,7 @@
 
 [![CircleCI Build Status](https://circleci.com/gh/electron/electron/tree/master.svg?style=shield)](https://circleci.com/gh/electron/electron/tree/master)
 [![AppVeyor Build Status](https://windows-ci.electronjs.org/api/projects/status/nilyf07hcef14dvj/branch/master?svg=true)](https://windows-ci.electronjs.org/project/AppVeyor/electron/branch/master)
+[![Azure Pipelines Build Status](https://github.visualstudio.com/electron/_apis/build/status/electron-builds/electron-osx-testing?branchName=master)](https://github.visualstudio.com/electron/_build/latest?definitionId=36)
 [![devDependency Status](https://david-dm.org/electron/electron/dev-status.svg)](https://david-dm.org/electron/electron?type=dev)
 [![Join the Electron Community on Slack](https://atom-slack.herokuapp.com/badge.svg)](https://atom-slack.herokuapp.com/)
 
@@ -39,9 +40,14 @@ versioning. As of version 2.0.0, Electron follows semver, so you don't need `--s
 For more installation options and troubleshooting tips, see
 [installation](docs/tutorial/installation.md).
 
-## Quick start
+## Quick start & Electron Fiddle
 
-Clone and run the
+Use [`Electron Fiddle`](https://github.com/electron/fiddle)
+to build, run, and package small Electron experiments, to see code examples for all of Electron's APIs, and
+to try out different versions of Electron. It's designed to make the start of your journey with
+Electron easier.
+
+Alternatively, clone and run the
 [electron/electron-quick-start](https://github.com/electron/electron-quick-start)
 repository to see a minimal Electron app in action:
 
@@ -55,6 +61,7 @@ npm start
 ## Resources for learning Electron
 
 - [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
+- [electron/fiddle](https://github.com/electron/fiddle) - A tool to build, run, and package small Electron experiments
 - [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
 - [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
 - [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
