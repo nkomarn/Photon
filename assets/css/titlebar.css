@@ -1,0 +1,15 @@
+#photon {
+    left: 5px;
+    position: fixed;
+    top: 5px;
+    width: 14px;
+}
+#titlebar {
+    background-color: #2C2D37;
+    height: 25px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-app-region: drag;
+}
